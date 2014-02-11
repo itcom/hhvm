@@ -1,4 +1,3 @@
-
 /********************************************/
 /* gd interface to freetype library         */
 /*                                          */
@@ -61,7 +60,7 @@ gdImageStringFT (gdImage * im, int *brect, int fg, char *fontlist,
 #else
 
 #include "gdcache.h"
-#include <freetype/config/ftheader.h>
+#include <freetype2/config/ftheader.h>
 #include FT_FREETYPE_H
 #include FT_GLYPH_H
 
